@@ -6,9 +6,9 @@ class OysterCard
   MINIMUM_FARE = -1
   MAX_BALANCE = 90
   ERROR = {
-    max: 'Maximum allowance reached'.freeze,
+    max: 'Maximum allowance reached',
     min: 'insufficient funds'
-   }
+  }.freeze
   attr_reader :balance, :in_journey, :entry_station
 
   def initialize
@@ -23,7 +23,7 @@ class OysterCard
     @balance += amount
   end
 
-  def deduct(fare = 0)
+  def deduct(_fare = 0)
     @balance += MINIMUM_FARE
   end
 

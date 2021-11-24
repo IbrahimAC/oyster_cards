@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/zeekio/oyster_cards/spec/oyster_card_spec.rb": {
+      "/Users/ibrahimchowdhury-makers/Documents/oyster_card/spec/oyster_card_spec.rb": {
         "lines": [
           null,
           null,
@@ -79,7 +79,7 @@
           null
         ]
       },
-      "/Users/zeekio/oyster_cards/lib/oyster_card.rb": {
+      "/Users/ibrahimchowdhury-makers/Documents/oyster_card/lib/oyster_card.rb": {
         "lines": [
           null,
           null,
@@ -131,6 +131,6 @@
         ]
       }
     },
-    "timestamp": 1637760566
+    "timestamp": 1637760945
   }
 }
